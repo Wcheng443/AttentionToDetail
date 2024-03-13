@@ -1,0 +1,45 @@
+/* Set the font family and background gradient for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #d09595, #ba2c2c); /* Gradient background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for main heading */
+h1 {
+    text-align: center;
+    color: #fff; /* White text color */
+}
+
+/* Style for subheadings */
+h2 {
+    color: #fff; /* White text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px;
+    margin: 20px 0 10px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style for sections containing images and text */
+.section {
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px;
+}
+
+/* Style for images */
+img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make images block elements */
+    margin: 0 auto; /* Center images horizontally */
+}
+
+/* Style for paragraph text */
+p {
+    text-align: center; /* Center-align text */
+    color: #333; /* Dark gray text color */
+    font-size: 14px; /* Set font size */
+}
